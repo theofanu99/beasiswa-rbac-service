@@ -1,0 +1,29 @@
+{
+  "name": "beasiswa-rbac-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+"scripts": {
+  "start": "node src/server.js",
+  "dev": "node --watch src/server.js",
+  "seed": "node prisma/seed.js"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/adapter-mariadb": "^7.10.0",
+    "@prisma/client": "^7.10.0",
+    "bcrypt": "^6.0.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mariadb": "^3.5.4",
+    "nodemailer": "^10.0.1"
+  },
+  "devDependencies": {
+    "prisma": "^7.10.0"
+  }
+}
